@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "eth.dish.injera", :name "Injera", :country "ETH", :kind :dish, :summary "Fermented flatbread that is a staple in Ethiopia and Eritrea, described as a national dish significant to Ethiopian culture.", :url "https://en.wikipedia.org/wiki/Injera", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eth.dish.doro-wat", :name "Doro wat", :country "ETH", :kind :dish, :summary "Spicy chicken stew, a variety of Ethiopian and Eritrean wat considered the national dish, shared from a communal bowl at formal and informal gatherings.", :url "https://en.wikipedia.org/wiki/Wat_(food)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eth.dish.kitfo", :name "Kitfo", :country "ETH", :kind :dish, :summary "Ethiopian traditional dish of minced raw beef marinated in spices and clarified butter, originating among the Gurage people.", :url "https://en.wikipedia.org/wiki/Kitfo", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eth.dish.shiro", :name "Shiro", :country "ETH", :kind :dish, :summary "Stew of powdered chickpeas or broad beans with onions, garlic and spices, originating from northern Ethiopia and southern Eritrea and fundamental to both culinary traditions.", :url "https://en.wikipedia.org/wiki/Shiro_(food)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eth.beverage.tej", :name "Tej", :country "ETH", :kind :beverage, :summary "Honey wine brewed and consumed in Ethiopia and Eritrea, made from honey, water and the shrub gesho; culturally significant as Ethiopia's national drink.", :url "https://en.wikipedia.org/wiki/Tej", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eth.product.coffee", :name "Ethiopian coffee", :country "ETH", :kind :product, :summary "Ethiopia is where Coffea arabica originates; the country accounts for around 17% of the global coffee market, and coffee generates roughly 30-35% of its foreign income.", :url "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eth.festival.timkat", :name "Timkat", :country "ETH", :kind :festival, :summary "Ethiopian Orthodox celebration of Epiphany held on 19 January with Tabot processions; inscribed by UNESCO in 2019 on the Representative List of the Intangible Cultural Heritage of Humanity.", :url "https://en.wikipedia.org/wiki/Timkat", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "eth.heritage.lalibela", :name "Lalibela", :country "ETH", :kind :heritage, :summary "Town in the Amhara Region of Ethiopia famous for its rock-cut monolithic churches, designated a UNESCO World Heritage Site in 1978.", :url "https://en.wikipedia.org/wiki/Lalibela", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
