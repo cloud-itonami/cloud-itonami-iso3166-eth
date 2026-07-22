@@ -11,13 +11,7 @@
           :rep-provenance "https://www.ppa.gov.et/"
           :corporate-number-owner-authority "Ministry of Trade / MoR"
           :corporate-number-legal-basis "Trade registration / TIN"
-          :corporate-number-provenance "https://www.mot.gov.et/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "KEN" {:name "Kenya" :owner-authority "PPRA" :legal-basis "PPADA" :national-spec "IFMIS" :provenance "https://www.ppra.go.ke/"
-          :required-evidence ["KRA PIN" "IFMIS registration" "BRS extract" "Authorized-representative record"]}
-   "UGA" {:name "Uganda" :owner-authority "PPDA" :legal-basis "PPDA Act" :national-spec "e-GP" :provenance "https://www.ppda.go.ug/"
-          :required-evidence ["URSB record" "e-GP registration" "TIN record" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.mot.gov.et/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
